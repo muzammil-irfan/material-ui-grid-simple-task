@@ -13,7 +13,6 @@ const useStyles = makeStyles({
     backgroundColor: '#FFC90D',
     border: '5px solid #000',
     height:'350px',
-    width:'250px',
     
 
   },
@@ -31,29 +30,29 @@ function App() {
   return (
     <>
     <Container fluid className={classes.container}>
-    <Grid container spacing={2}>
+    <Grid container spacing={6}>
     <Grid item md={3} >
-      <Box  className={classes.boxStyle} ></Box>
+      <Box width="250px" className={classes.boxStyle} ></Box>
 
     </Grid>
     <Grid item md={4}  >
-      <Box className={classes.boxStyle} mx={3}></Box>
+      <Box width="250px" className={classes.boxStyle} mx={3}></Box>
 
     </Grid>
     <Grid item md={5} >
-      <Box  className={classes.boxStyle} ></Box>
+      <Box width="250px" className={classes.boxStyle} ></Box>
 
     </Grid>
     <Grid item md={3} >
-      <Box  className={ classes.boxStyle} m={2}></Box>
+      <Box width="200px" className={ classes.boxStyle} m={2}></Box>
 
     </Grid>
     <Grid item md={4} >
-      <Box className={classes.boxStyle} mx={3}></Box>
+      <Box width="250px" className={classes.boxStyle} mx={3}></Box>
 
     </Grid>
     <Grid item md={4} >
-      <Box className={classes.boxStyle}></Box>
+      <Box width="250px" className={classes.boxStyle}></Box>
 
     </Grid>
     </Grid>
